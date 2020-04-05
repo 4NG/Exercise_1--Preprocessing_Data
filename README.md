@@ -4,7 +4,8 @@ Xây dựng chương trình console với định dạng:
   <program_name> <options> <input_data> <output_data> <data_log>
  
 1.<program_name> : tên chương trình tùy đặt
-2.<options> : 
+
+2.<options> : tùy chọn
   
  a. Tóm tắt dữ liệu: <summary>
   
