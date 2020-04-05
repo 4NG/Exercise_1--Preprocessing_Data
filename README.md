@@ -48,4 +48,4 @@ Xây dựng chương trình console với định dạng:
 
 5. <data_log> : ghi lại những thay đổi cụ thể trong từng function.
 
-Yo, this is Phong.
+
