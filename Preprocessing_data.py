@@ -22,14 +22,5 @@ class ProcessingData:
         pass
 
 
-if __name__ == '__main__':
-    data = input("Input your data here: ")
-    while True:
-        try:
-            input_data = pd.read_csv(data)
-            break
-        except:
-            print("There is no file name.")
-            data = input("Try again! Input your data here: ")
     
 
