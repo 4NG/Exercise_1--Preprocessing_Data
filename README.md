@@ -14,6 +14,8 @@ Xây dựng chương trình console với định dạng:
       - số thuộc tính
       
       - <data_log> -> <thuộc tính> : <tên> <kiểu dữ liệu>
+      
+      - Phong
   
  b. Điền giá trị bị thiếu: <replace>
   
@@ -21,18 +23,23 @@ Xây dựng chương trình console với định dạng:
   
       - <data_log> -> <thuộc tính> : <tên thuộc tính>, <số giá trị thiếu>, <giá trị mới>
   
+      - Luân
  c. Chia giỏ một hoặc nhiều thuộc tính numeric:  <discretize>
   
       - Nhập số giỏ cần chia, phương pháp chia (chiều sâu hoặc chiều rộng)
   
       - <data_log> -> <thuộc tính> : <tên thuộc tính> <miền giá trị giỏ 1> : <số mẫu> ... 
                                         <miền giá trị giỏ K> : <số mẫu>
+      
+      - Thành
                                           
  d. Chuẩn hóa các thuộc tính có kiểu numeric: <normalize>
   
       - Min-max, Z-score
   
       - <data_log> -> <thuộc tính>: <tên thuộc tính> <miền giá trị mới>
+      
+      - Sơn
   
 3.<input_data> : 
 
