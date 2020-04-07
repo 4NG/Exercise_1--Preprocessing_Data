@@ -14,10 +14,21 @@ class UnderstandData:
 
     @staticmethod
     def describe_nominal(columns):
-        di = columns.count()
         uni = columns.unique()
+        only = columns.value_counts()   # count value appear only one time
+        only = only[only == 1].index
+        di = columns.count()
         de = 142193 - di
         de_percent = (de / 142193) * 100
-        return di, len(uni.tolist()), de, de_percent
+        return len(uni.tolist()), len(only), de, de_percent
+
+    """
+    def mean(data):
+        return sum(data) / len(data)
+
+    def var(data):
+        mu = mean(data)
+        return sum([(point - mu) ** 2 for point in data]) / len(data)
+    """
 
 
