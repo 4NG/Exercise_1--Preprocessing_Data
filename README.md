@@ -1,11 +1,11 @@
 # Exercise_1--Preprocessing_Data
 # CS313.K21 Exercise 
 Xây dựng chương trình console với định dạng:
-  <program_name> <options> <input_data> <output_data> <data_log>
+  <program_name> <op tion> <input_data> <output_data> <data_log>
  
 1.<program_name> : tên chương trình tùy đặt
 
-2.<options> : tùy chọn
+2.<op tion> : các tùy chọn
   
  a. Tóm tắt dữ liệu: <summary>
   
@@ -15,7 +15,7 @@ Xây dựng chương trình console với định dạng:
       
       - <data_log> -> <thuộc tính> : <tên> <kiểu dữ liệu>
       
-      - Phong
+      - Phong đảm nhiệm.
   
  b. Điền giá trị bị thiếu: <replace>
   
@@ -23,7 +23,7 @@ Xây dựng chương trình console với định dạng:
   
       - <data_log> -> <thuộc tính> : <tên thuộc tính>, <số giá trị thiếu>, <giá trị mới>
   
-      - Luân
+      - Luân đảm nhiệm.
  c. Chia giỏ một hoặc nhiều thuộc tính numeric:  <discretize>
   
       - Nhập số giỏ cần chia, phương pháp chia (chiều sâu hoặc chiều rộng)
@@ -31,7 +31,7 @@ Xây dựng chương trình console với định dạng:
       - <data_log> -> <thuộc tính> : <tên thuộc tính> <miền giá trị giỏ 1> : <số mẫu> ... 
                                         <miền giá trị giỏ K> : <số mẫu>
       
-      - Thành
+      - Thành đảm nhiệm.
                                           
  d. Chuẩn hóa các thuộc tính có kiểu numeric: <normalize>
   
@@ -39,7 +39,7 @@ Xây dựng chương trình console với định dạng:
   
       - <data_log> -> <thuộc tính>: <tên thuộc tính> <miền giá trị mới>
       
-      - Sơn
+      - Sơn đảm nhiệm.
   
 3.<input_data> : 
 
@@ -54,5 +54,11 @@ Xây dựng chương trình console với định dạng:
 4. <output_data> : dữ liệu đã xử lí
 
 5. <data_log> : ghi lại những thay đổi cụ thể trong từng function.
+
+** Cập nhật tình hình làm việc:
+
+1. Sử dụng file .csv làm định dạng file input và output.
+2. Tất cả lịch sử thay đổi khi sử dụng các function lên data được lưu lại trong file log - định dạng .txt.
+3. Ba bộ dữ liệu test được tách từ file Indian_Liver_Patient_Dataset.csv ở bài tập 1.
 
 
