@@ -1,0 +1,70 @@
+1.     Tom tat du lieu:     
+so mau: 20
+so thuoc tinh: 11
+thuoc tinh 1: Age - numeric
+thuoc tinh 2: Gender - nominal
+thuoc tinh 3: TB - numeric
+thuoc tinh 4: DB - numeric
+thuoc tinh 5: Alkphos - numeric
+thuoc tinh 6: Sgpt - numeric
+thuoc tinh 7: Sgot - numeric
+thuoc tinh 8: TP - numeric
+thuoc tinh 9: ALB - numeric
+thuoc tinh 10: A/G - numeric
+thuoc tinh 11: Label - numeric
+2.     Dien gia tri bi thieu     
+thuoc tinh: Age, 0, 49.8
+thuoc tinh: Gender, 4, Male
+thuoc tinh: TB, 1, 2.110526315789474
+thuoc tinh: DB, 1, 0.9421052631578949
+thuoc tinh: Alkphos, 1, 264.3157894736842
+thuoc tinh: Sgpt, 2, 63.55555555555556
+thuoc tinh: Sgot, 2, 87.5
+thuoc tinh: TP, 1, 6.936842105263157
+thuoc tinh: ALB, 1, 3.3368421052631576
+thuoc tinh: A/G, 1, 0.92
+thuoc tinh: Label, 2, 1.2222222222222223
+3.     Chia gio mot hoac nhieu thuoc tinh numeric     
+thuoc tinh: TB [0;10] 10 [10;20] 0 [20;20] 0 
+thuoc tinh: DB [0;10] 10 [10;20] 0 [20;20] 0 
+thuoc tinh: Alkphos [0;10] 10 [10;20] 0 [20;20] 0 
+thuoc tinh: Sgpt [0;10] 10 [10;20] 0 [20;20] 0 
+thuoc tinh: Sgot [0;10] 10 [10;20] 0 [20;20] 0 
+thuoc tinh: TP [0;10] 10 [10;20] 0 [20;20] 0 
+thuoc tinh: ALB [0;10] 10 [10;20] 0 [20;20] 0 
+thuoc tinh: A/G [0;10] 10 [10;20] 0 [20;20] 0 
+thuoc tinh: Label [0;10] 10 [10;20] 0 [20;20] 0 
+3.     Chia gio mot hoac nhieu thuoc tinh numeric     
+thuoc tinh: TB [0.6;2.6] 13 [2.6;4.6] 2 [4.6;6.6] 0 [6.6;8.6] 1 
+thuoc tinh: DB [0.1;1.1] 12 [1.1;2.1] 2 [2.1;3.1] 0 [3.1;4.1] 0 
+thuoc tinh: Alkphos [145.0;283.0] 11 [283.0;421.0] 5 [421.0;559.0] 1 [559.0;697.0] 0 
+thuoc tinh: Sgpt [14.0;68.0] 12 [68.0;122.0] 1 [122.0;176.0] 1 [176.0;230.0] 0 
+thuoc tinh: Sgot [11.0;118.0] 14 [118.0;225.0] 0 [225.0;332.0] 2 [332.0;439.0] 0 
+thuoc tinh: TP [5.5;5.5] 0 [5.5;5.5] 0 [5.5;5.5] 0 [5.5;5.5] 0 
+thuoc tinh: ALB [2.3;2.3] 0 [2.3;2.3] 0 [2.3;2.3] 0 [2.3;2.3] 0 
+thuoc tinh: A/G [0.4;0.4] 0 [0.4;0.4] 0 [0.4;0.4] 0 [0.4;0.4] 0 
+thuoc tinh: Label [1.0;1.0] 0 [1.0;1.0] 0 [1.0;1.0] 0 [1.0;1.0] 0 
+4.     Chuan hoa du lieu     
+Chuan hoa theo Min-Max 
+thuoc tinh: Age [0, 1]
+thuoc tinh: TB [0, 1]
+thuoc tinh: DB [0, 1]
+thuoc tinh: Alkphos [0, 1]
+thuoc tinh: Sgpt [0, 1]
+thuoc tinh: Sgot [0, 1]
+thuoc tinh: TP [0, 1]
+thuoc tinh: ALB [0, 1]
+thuoc tinh: A/G [0, 1]
+thuoc tinh: Label [0, 1]
+4.     Chuan hoa du lieu     
+Chuan hoa theo Z-Score 
+thuoc tinh: Age [-2 2]
+thuoc tinh: TB [-1 4]
+thuoc tinh: DB [-1 4]
+thuoc tinh: Alkphos [-1 4]
+thuoc tinh: Sgpt [-1 3]
+thuoc tinh: Sgot [-1 4]
+thuoc tinh: TP [-1 1]
+thuoc tinh: ALB [-1 2]
+thuoc tinh: A/G [-2 2]
+thuoc tinh: Label [-1 2]
