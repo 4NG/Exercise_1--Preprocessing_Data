@@ -61,4 +61,14 @@ Xây dựng chương trình console với định dạng:
 2. Tất cả lịch sử thay đổi khi sử dụng các function lên data được lưu lại trong file log - định dạng .txt.
 3. Ba bộ dữ liệu test được tách từ file Indian_Liver_Patient_Dataset.csv ở bài tập 1.
 
+6. Hướng dẫn sử dụng:
 
+  - Chạy Preprocessing_Data.
+  - Chạy main.
+  - Nhập file dữ liệu cần xử lí vào console ở phần yêu cầu.
+  - Nhập tên file output (định dạng .csv)
+  - Nhập tên file log (định dạng .txt)
+  - Sử dụng các options trong console (thứ tự 1, 2, 3, 4, 5).
+  - Sau khi sử dụng 1 option, các thay đổi sẽ hiển thị trên màn hình console.
+  - Sau khi exit, các thay đổi cũng như dữ liệu đầu ra sẽ được lưu vào file output và log.
+  
