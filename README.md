@@ -15,15 +15,14 @@ Xây dựng chương trình console với định dạng:
       
       - <data_log> -> <thuộc tính> : <tên> <kiểu dữ liệu>
       
-      - Phong đảm nhiệm.
   
  b. Điền giá trị bị thiếu: <replace>
   
       - thay thế "?" bằng giá trị mới: nominal -> popular value, numeric -> mean value
   
       - <data_log> -> <thuộc tính> : <tên thuộc tính>, <số giá trị thiếu>, <giá trị mới>
+      
   
-      - Luân đảm nhiệm.
  c. Chia giỏ một hoặc nhiều thuộc tính numeric:  <discretize>
   
       - Nhập số giỏ cần chia, phương pháp chia (chiều sâu hoặc chiều rộng)
@@ -31,7 +30,7 @@ Xây dựng chương trình console với định dạng:
       - <data_log> -> <thuộc tính> : <tên thuộc tính> <miền giá trị giỏ 1> : <số mẫu> ... 
                                         <miền giá trị giỏ K> : <số mẫu>
       
-      - Thành đảm nhiệm.
+
                                           
  d. Chuẩn hóa các thuộc tính có kiểu numeric: <normalize>
   
@@ -39,7 +38,7 @@ Xây dựng chương trình console với định dạng:
   
       - <data_log> -> <thuộc tính>: <tên thuộc tính> <miền giá trị mới>
       
-      - Sơn đảm nhiệm.
+
   
 3.<input_data> : 
 
